@@ -3805,12 +3805,12 @@ input, select, textarea {
 }
 
 .pug-fit {
-	height: 15px;
-	width: 15px;
+	height: 17px;
+	width: 17px;
 	background-color: grey;
 	display: inline-block;
 	background-image:
 		url('/images/pug-greyscale.png');
 	background-position: center;
-	background-size: 15px 15px;
+	background-size: 16px 16px;
 }
