@@ -3788,10 +3788,11 @@ input, select, textarea {
 
 .devicon {
 	font-size: 100px;
+	margin: 10px;
 }
 
 .devicon-grid {
 	display: grid;
-	grid-template-columns: repeat(6, 1fr);
-	grid-template-rows: repeat(2, 1fr);
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: repeat(3, 1fr);
 }
