@@ -3793,6 +3793,24 @@ input, select, textarea {
 
 .devicon-grid {
 	display: grid;
-	grid-template-columns: repeat(5, 1fr);
-	grid-template-rows: repeat(3, 1fr);
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(4, 1fr);
+	justify-content: center;
+	align-items: center;
+}
+
+.project-image {
+	height: 200px;
+	width: 250px;
+}
+
+.pug-fit {
+	height: 15px;
+	width: 15px;
+	background-color: grey;
+	display: inline-block;
+	background-image:
+		url('/images/pug-greyscale.png');
+	background-position: center;
+	background-size: 15px 15px;
 }
